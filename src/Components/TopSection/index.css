@@ -1,0 +1,53 @@
+.top-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 10px 2px;
+}
+
+.address-section{
+    display: flex;
+    align-items: center;
+}
+.address-section p{
+    
+    font-size: 17px;
+}
+.location-icon{
+    font-size: 20px;
+}
+.top-add{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0px ;
+    margin-right: 5px;
+
+}
+.bel-add{
+    font-size: 15px;
+    margin:7px 0px ;
+}
+.wallet{
+    font-size: 31px;
+    margin: 0px 0px;
+}
+.wallet-section{
+    display: flex;
+    margin: 0px 0px 0px 20px;
+    
+}
+.wallet-container{
+    display: flex;
+    
+}
+.wallet-section p {
+    align-self: flex-start;
+    margin-top: -19%;
+    margin-left: -15%;
+    background-color: blue;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 2px 7px;
+    border-radius: 20px;
+}

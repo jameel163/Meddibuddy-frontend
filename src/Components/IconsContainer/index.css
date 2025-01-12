@@ -1,0 +1,23 @@
+.icons-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 7% 0px;
+    
+}
+.each-icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    margin: 4px;
+    padding: 2px;
+}
+.icon-image{
+    width: 60px;
+}
+.icon-text{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 13px;
+}

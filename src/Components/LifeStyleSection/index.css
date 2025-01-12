@@ -1,0 +1,30 @@
+.lifestyle h1{
+    margin: 10px;
+    font-size: 22px;
+}
+.lifestyle ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.lifestyle ul li{
+    flex-grow: 1;
+    width: 30%;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+.lifestyle ul li img{
+    width: 80px;
+    
+}
+.lifestyle ul li p{
+    text-align: center;
+}

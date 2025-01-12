@@ -1,0 +1,22 @@
+.total-page{
+}
+.search-bar-container{
+   border: 1px solid #d2d8e0; 
+   width: 95%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 10px;
+   height: 56px;
+   margin: 10px;
+}
+.search-bar{
+    border: none;
+    width: 80vw;
+    font-family:'Times New Roman', Times, serif;
+    outline: none;
+    font-size: 17px;
+}
+.search-icon{
+    font-size: 25px;
+}

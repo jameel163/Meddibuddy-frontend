@@ -1,0 +1,78 @@
+.bookpackage-card-container{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.bookpackage-card-list{
+    background-color: white;
+    border: 1px solid #E0E0E0;
+    border-radius: 14px;
+    padding: 10px;
+    margin: 12px 0px;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.14) 0px 3px 8px;
+}
+.part-1{
+    width: 60%;
+    flex-grow: 1;
+}
+.part-1 h3{
+    margin: 6px 0px;
+}
+.part-1 div p{
+    margin: 10px 0px;
+}
+.visit{
+    display: flex;
+    align-items: center;
+}
+.visit div{
+    margin: 0px 5px;
+}
+.price-discount{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}.discount{
+    text-decoration: line-through;
+    margin: 0px 8px;
+    font-size: 17px;
+    color: rgb(62, 142, 142);
+}.discount-percentage{
+    color: green;
+    font-weight: 700;
+    background-color: rgb(222, 231, 228);
+    padding: 5px;
+    border-radius: 8px;
+}
+.part-2{
+    display: flex;
+    flex-direction: column;
+}
+.price{
+    margin: 8px;
+    font-weight: 700;
+}.price span{
+    font-weight: 500;
+    color:rgb(62, 142, 142);
+}
+.part2-button{
+    background-color: transparent;
+    border-color: blueviolet;
+    border-radius: 10px;
+    width: 80px;
+    height: 35px;
+    font-size: 17px;
+    font-weight: 700;
+    color: blueviolet;
+    align-self: flex-end;
+    margin-top: 10px;
+}
+
+.bookpackage{
+    background-color: white;
+}
+.added{
+    color: green;
+    border-color: green;
+}

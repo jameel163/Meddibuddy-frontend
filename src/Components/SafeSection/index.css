@@ -1,0 +1,14 @@
+.safe-list{
+    background-color: rgb(250, 246, 255);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 35%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    flex-grow: 1;
+}
+.safesection h1{
+    margin: 13px;
+    font-size: 22px;
+    margin-top: 18px;
+}
