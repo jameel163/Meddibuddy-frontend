@@ -31,7 +31,7 @@ const App = () => {
   return (
     <MyProvider value={{ cart, addCart }}>
       <Routes>
-        <Route path="/medi" element={<Homepage />} />
+        <Route path="/" element={<Homepage />} />
         <Route path='/cart-page' element={<CartSection/>}/>
       </Routes>
     </MyProvider>
